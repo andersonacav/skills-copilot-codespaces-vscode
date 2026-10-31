@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "anderson",
+  "description": "Plugins pessoais do Anderson para o Claude Code",
+  "owner": { "name": "Anderson" },
+  "plugins": [
+    {
+      "name": "omc-kit",
+      "description": "Instala e configura o oh-my-claudecode completo (plugin, setup, CLI omc, HUD, regras e agent teams) com um único comando.",
+      "version": "1.0.0",
+      "source": "./plugins/omc-kit",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 {
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
   "enabledPlugins": {
-    "oh-my-claudecode@omc": true
+    "oh-my-claudecode@omc": true,
+    "omc-kit@anderson": true
   },
   "extraKnownMarketplaces": {
     "omc": {
@@ -8,9 +12,12 @@
         "source": "github",
         "repo": "Yeachan-Heo/oh-my-claudecode"
       }
+    },
+    "anderson": {
+      "source": {
+        "source": "github",
+        "repo": "andersonacav/skills-copilot-codespaces-vscode"
+      }
     }
-  },
-  "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
   }
 }

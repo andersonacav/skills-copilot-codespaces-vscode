@@ -19,6 +19,18 @@ _GitHub Copilot can help you code by offering autocomplete-style suggestions rig
 
 </header>
 
+## Plugin omc-kit (Claude Code)
+
+Este repositório também é um marketplace de plugins do Claude Code. Para instalar o oh-my-claudecode completo em qualquer sessão:
+
+```
+/plugin marketplace add andersonacav/skills-copilot-codespaces-vscode
+/plugin install omc-kit@anderson
+```
+
+Depois rode `/omc-kit:instalar-omc`. Detalhes em [`plugins/omc-kit/README.md`](plugins/omc-kit/README.md).
+
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.
