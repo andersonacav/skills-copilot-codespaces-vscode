@@ -1,0 +1,7 @@
+{
+  "name": "omc-kit",
+  "version": "1.0.0",
+  "description": "Instala e configura o oh-my-claudecode completo com um único comando: /omc-kit:instalar-omc",
+  "author": { "name": "Anderson" },
+  "license": "MIT"
+}

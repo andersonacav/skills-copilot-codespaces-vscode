@@ -1,13 +1,30 @@
 {
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "enabledPlugins": {
+    "oh-my-claudecode@omc": true,
+    "omc-kit@anderson": true,
+    "superpowers@superpowers-marketplace": true
+  },
   "extraKnownMarketplaces": {
+    "omc": {
+      "source": {
+        "source": "github",
+        "repo": "Yeachan-Heo/oh-my-claudecode"
+      }
+    },
+    "anderson": {
+      "source": {
+        "source": "github",
+        "repo": "andersonacav/skills-copilot-codespaces-vscode"
+      }
+    },
     "superpowers-marketplace": {
       "source": {
         "source": "github",
         "repo": "obra/superpowers-marketplace"
       }
     }
-  },
-  "enabledPlugins": {
-    "superpowers@superpowers-marketplace": true
   }
 }
