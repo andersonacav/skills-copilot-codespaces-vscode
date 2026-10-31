@@ -4,7 +4,8 @@
   },
   "enabledPlugins": {
     "oh-my-claudecode@omc": true,
-    "omc-kit@anderson": true
+    "omc-kit@anderson": true,
+    "superpowers@superpowers-marketplace": true
   },
   "extraKnownMarketplaces": {
     "omc": {
@@ -17,6 +18,12 @@
       "source": {
         "source": "github",
         "repo": "andersonacav/skills-copilot-codespaces-vscode"
+      }
+    },
+    "superpowers-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers-marketplace"
       }
     }
   }
